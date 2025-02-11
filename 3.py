@@ -36,3 +36,4 @@ user_info(a=qwer1['nam'],b=qwer1['comment_qt'])
 user_info(**qwer2)
 user_info(qwer3['n'],qwer3['comment_qty3'])
 user_info(qwer3['n'],qwer3['comment_qty3'])
+
