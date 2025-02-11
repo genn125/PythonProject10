@@ -13,3 +13,4 @@ while True :
     c = input(f'Продолжить? Введите yes/no: ')
     if c != 'yes':
         break
+
