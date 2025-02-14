@@ -29,7 +29,6 @@ print('3 -', filter_to_list([35,True, 'asd',10],str))
 print('4 -', filter_to_list([35,True, 'asd',10],bool))
 
 #
-#
 # '''
 # Используя лямбда функцию
 # '''
