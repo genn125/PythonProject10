@@ -30,7 +30,6 @@ user_profile=[{'nam':7,'comment_qt':8},{'a': 25364, 'b': 6666},{'n': 78,'comment
 qwer1, qwer2, qwer3 = user_profile
 @count_calls
 def user_info(a,b):
-
     print(f'{wrapper.count} - {a}, {b}')
 
 user_info(666,999)
