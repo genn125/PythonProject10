@@ -50,7 +50,8 @@
     "Python.7.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/Pycharm/PythonProject10/3.py"
   },
   "keyToStringList": {
     "ChangesTree.GroupingKeys": [
@@ -392,7 +393,23 @@
       <option name="project" value="LOCAL" />
       <updated>1739518009295</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Классы и экземпляры">
+      <option name="closed" value="true" />
+      <created>1739519361909</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1739519361909</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Классы и экземпляры">
+      <option name="closed" value="true" />
+      <created>1739521424005</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1739521424005</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
