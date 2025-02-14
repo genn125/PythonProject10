@@ -11,3 +11,4 @@ try:
     print(image_info ({'image_title': 'my cat'}))
 except TypeError as e:
     print(e)
+
