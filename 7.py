@@ -8,21 +8,6 @@ class Image:
         self.title = title
         self.extension = extension
 
-    def super_print(f):
-        m = [0]
-        foo = print
-
-        def helper(x):
-            m[0] = f(m[0])
-            foo(f'[{m[0]}]: {x}')
-
-        return helper
-
-    @super_print
-
-    def print(n):
-        return n + 1
-
     def resize (self, res):
         self.resolution = res
 
@@ -59,5 +44,8 @@ print(first_img)
 print(first_img.tyu(123, 567))
 
 zxc = Image('1920x1080', 'fig2', 'png')
-# zxc.resize('3840x2160')
-# print(zxc.resolution)
+zxc.resize('3840x2160')
+print(zxc.resolution)
+print(zxc.title)
+print(zxc.extension)
+print(zxc)
