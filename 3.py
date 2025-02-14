@@ -3,8 +3,7 @@
 
 """
  нашел на просторах для нумерации вызовов функции
-
-
+ 
 def count_calls(func):
     global wrapper
     def wrapper(*args, **kwargs):
