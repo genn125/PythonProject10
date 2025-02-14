@@ -35,7 +35,7 @@ print(zxc.resolution)
 print(zxc.title)
 print(zxc.extension)
 print(zxc)
-#
+
 # def super_print(f):
 #     m = [0]
 #     foo = print
