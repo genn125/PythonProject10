@@ -22,7 +22,7 @@ second_comment = Comment('Второй комментарий')
 second_comment.upvote()
 second_comment.upvote()
 
-                                   #       Как соединить 3 и более комментариев
+                                   #       Как соединить 3 и более комментариев?
 
 three_comment = Comment('3 комментарий')
 three_comment.upvote()
