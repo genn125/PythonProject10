@@ -7,9 +7,12 @@ if not qwerty.exists():  # проверяет, есть ли такая папк
     qwerty.mkdir()       # Создание папки по "тому" пути
 
 with open('./Test_one/first.txt',"w",  encoding='utf-8') as test_file:
-    test_file.write('Привет, первая строчка\n')
-    test_file.write('Привет, вторая строчка\n')
+    test_file.write('Привет, первая строчка из first.txt\n')
+    test_file.write('Привет, вторая строчка из first.txt\n')
 
 with open('./Test_one/second.txt',"w",  encoding='utf-8') as test_file:
-    test_file.write('Привет, я из second файла первая строчка\n')
-    test_file.write('Привет, я из second файла ВТОРАЯ строчка\n')
+    test_file.write('Привет, я из second файла первая строчка\nПривет, я из second файла ВТОРАЯ строчка\n'
+                    'Привет, я из second файла Третья строчка\n')
+with open ('./Test_one/first.txt','r', encoding='utf-8') as test_file:
+    print(test_file.read())
+
