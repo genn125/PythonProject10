@@ -531,7 +531,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739889512454</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Работа с файлами">
+      <option name="closed" value="true" />
+      <created>1739891435834</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1739891435834</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
