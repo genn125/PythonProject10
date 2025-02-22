@@ -53,6 +53,8 @@
     "Python.7.executor": "Run",
     "Python.8.executor": "Run",
     "Python.9.executor": "Run",
+    "Python.qqq.executor": "Run",
+    "Python.www.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
@@ -69,7 +71,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Python.12">
+  <component name="RunManager" selected="Python.qqq">
     <configuration name="10" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject10" />
       <option name="ENV_FILES" value="" />
@@ -136,7 +138,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="8" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="qqq" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject10" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -149,7 +151,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/8.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qqq.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -158,7 +160,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="9" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="www" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject10" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -171,7 +173,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/9.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/www.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -182,11 +184,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.qqq" />
+        <item itemvalue="Python.www" />
         <item itemvalue="Python.12" />
         <item itemvalue="Python.11" />
         <item itemvalue="Python.10" />
-        <item itemvalue="Python.9" />
-        <item itemvalue="Python.8" />
       </list>
     </recent_temporary>
   </component>
@@ -205,14 +207,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1739301860301</updated>
-    </task>
-    <task id="LOCAL-00006" summary="For_in (с ф-ей filter и через ф-ию lambda)">
-      <option name="closed" value="true" />
-      <created>1739302346789</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1739302346789</updated>
     </task>
     <task id="LOCAL-00007" summary="Цикл while">
       <option name="closed" value="true" />
@@ -598,7 +592,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740220647217</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="Работа с базой данных SQLite">
+      <option name="closed" value="true" />
+      <created>1740223213735</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1740223213735</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
