@@ -2,48 +2,54 @@ import sqlite3
 
 # Устанавливаем соединение с базой данных
 connection = sqlite3.connect('tasks.db')
+
 cursor = connection.cursor()
 
 Tasks = "Музыкальные группы"
+albums = "Альбомы"
+compositions = "Композиции"
+title = "Группа"
 
-# Создаем таблицу Tasks
-cursor.execute('''
+
+# Создаем таблицу "Музыкальные группы"
+cursor.execute("""
 CREATE TABLE IF NOT EXISTS Tasks (
-"№ п п" INTEGER PRIMARY KEY,
-Группа TEXT NOT NULL,
-Альбом TEXT DEFAULT 'Not Started'
-)
-''')
+№ INTEGER PRIMARY KEY,
+title TEXT NOT NULL,
+albums TEXT,
+compositions TEXT)
+""")
 
 
 # Функция для добавления новой задачи
 def add_task(title):
 
-    cursor.execute('INSERT INTO Tasks (Группа) VALUES (?)', (title,))
+    cursor.execute('INSERT INTO Tasks (title) VALUES (?)', (title,))
     connection.commit()
 
 
-# Функция для обновления статуса задачи
-def update_task_status(task_id, status):
-    cursor.execute('UPDATE Tasks SET status = ? WHERE id = ?', (status, task_id))
+# Функция для обновления albums
+def update_task_albums(task_id, albums):
+    cursor.execute('UPDATE Tasks SET albums = ? WHERE id = ?', (albums, task_id))
     connection.commit()
 
 
 # Функция для вывода списка задач
 def list_tasks():
+
     cursor.execute('SELECT * FROM Tasks')
     tasks = cursor.fetchall()
     for task in tasks:
         print(task)
 
 
-# Добавляем задачи
+# Добавляем Группы
 while True:
     q = input('Введите название группы: ')
     if q=="":
         break
     add_task(q)
-    continue
+    # continue
 
 
 # Обновляем статус задачи
