@@ -1,36 +1,56 @@
-
 import sqlite3
-conn=sqlite3.connect('cust.db')
 
-# создать курсор
-c= conn.cursor()
-try:
-    # создайте таблиц
-    c.execute("CREATE TABLE customers_table (first_name text,last_name text,email text)")
+# Устанавливаем соединение с базой данных
+connection = sqlite3.connect('tasks.db')
+cursor = connection.cursor()
 
-    # вставьте значения в столбцы таблицы
-    c.execute("INSERT INTO customers_table VALUES ('Mary','Dakota','mdakota@gmail.com')")
-    c.execute("INSERT INTO customers_table VALUES ('Amy','Jackson','ajackson@gmail.com')")
-except sqlite3.Error as error:
-    print("Ошибка добавления данных в таблицу", error)
+Tasks = "Музыкальные группы"
 
-# Печать всех значений перед изменением таблицы
-print("Таблица перед использованием ALTER ..")
-c.execute("SELECT * FROM customers_table")
-print(c.fetchall())
+# Создаем таблицу Tasks
+cursor.execute('''
+CREATE TABLE IF NOT EXISTS Tasks (
+"№ п п" INTEGER PRIMARY KEY,
+Группа TEXT NOT NULL,
+Альбом TEXT DEFAULT 'Not Started'
+)
+''')
 
-try:
-    # Измените таблицу
-    c.execute("ALTER TABLE customers_table ADD COLUMN UserName CHAR(25)")
-except sqlite3.Error as error:
-    print("Ошибка добавления столбца в таблицу", error)
 
-# Распечатайте таблицу после внесения изменений
-print("Таблица после использования ALTER ..")
-c.execute("SELECT * FROM customers_table")
-print(c.fetchall())
+# Функция для добавления новой задачи
+def add_task(title):
 
-print("Команда выполнена успешно...")
-conn.commit()
-# закройте нашу связь
-conn.close()
+    cursor.execute('INSERT INTO Tasks (Группа) VALUES (?)', (title,))
+    connection.commit()
+
+
+# Функция для обновления статуса задачи
+def update_task_status(task_id, status):
+    cursor.execute('UPDATE Tasks SET status = ? WHERE id = ?', (status, task_id))
+    connection.commit()
+
+
+# Функция для вывода списка задач
+def list_tasks():
+    cursor.execute('SELECT * FROM Tasks')
+    tasks = cursor.fetchall()
+    for task in tasks:
+        print(task)
+
+
+# Добавляем задачи
+while True:
+    q = input('Введите название группы: ')
+    if q=="":
+        break
+    add_task(q)
+    continue
+
+
+# Обновляем статус задачи
+# update_task_status(2, 'In Progress')
+
+# Выводим список задач
+list_tasks()
+
+# Закрываем соединение
+connection.close()

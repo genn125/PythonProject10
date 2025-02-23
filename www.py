@@ -12,7 +12,7 @@ with sqlite3.connect(DB_NAME) as sqlite_conn:
     title text NOT NULL,
     student_qty integer,
     reviews_qty integer
-    );"""
+    )"""
                          # CREATE TABLE IF NOT EXISTS - создание таблицы, если ее еще нет
                          # courses - название таблицы
                        # ide integer, reviews_qty и тд - название полей и их тип
@@ -32,15 +32,31 @@ courses =[
     ]
 #########################################################
 
-with sqlite3.connect(DB_NAME) as sqlite_conn:
-    try:
-        sql_request = "INSERT INTO courses VALUES (?, ?, ?, ?)"
-        for course in courses:
-            sqlite_conn.execute(sql_request, course)  # execute - выполнение sql запроса с заполнением таблицы
-        sqlite_conn.commit()  # сохранение изменений в базе
-    except sqlite3.Error as error:
-        print("Некоторые данные уже есть в базе. Ошибка: ", error)
 
+# Функция для обновления статуса задачи
+def update_task_status(task_id, status):
+    cursor.execute('UPDATE Tasks SET status = ? WHERE id = ?', (status, task_id))
+    connection.commit()
+
+
+
+
+
+
+
+
+
+
+
+# with sqlite3.connect(DB_NAME) as sqlite_conn:
+# try:
+#     sql_request = "INSERT INTO courses VALUES (?, ?, ?, ?)"
+#     for course in courses:
+#         sqlite_conn.execute(sql_request, course)  # execute - выполнение sql запроса с заполнением таблицы
+#     sqlite_conn.commit()  # сохранение изменений в базе
+# except sqlite3.Error as error:
+#     print("Некоторые данные уже есть в базе. Ошибка: ", error)
+################################################################################
 
 with sqlite3.connect(DB_NAME) as sqlite_conn:
     # SQL запрос для ЧТЕНИЯ таблицы                                #  SELECT * - выбрать всё, FROM - из таблицы courses
