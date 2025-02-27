@@ -8,8 +8,8 @@ from pathlib import  Path
 # Конструируем электронное сообщение
 my_email = EmailMessage()                                   # создание экземпляра класса
 
-html_template = Template(Path("templates/index.html").read_text())  # Создали html шаблон по пути ...
-html_content = html_template.substitute({"name": "Bogdan", "date": "завтра"})   # метод, позволяющий заменить переменные в шаблоне html на
+html_template = Template(Path("templates/index.html").read_text())  # Создали html шаблон по пути templates/index.html
+html_content = html_template.substitute({"name": "Bogdan", "date": "завтра"})   # метод, позволяющий заменить переменные в шаблоне index.html
 
 my_email ['from'] = '1'                                             # От кого
 my_email ['to'] = 'test@gmail.com'                           #  Кому
