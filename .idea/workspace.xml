@@ -211,14 +211,6 @@
       <option name="presentableId" value="Default" />
       <updated>1739301860301</updated>
     </task>
-    <task id="LOCAL-00016" summary="Сокращенный цикл for in">
-      <option name="closed" value="true" />
-      <created>1739465578362</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1739465578362</updated>
-    </task>
     <task id="LOCAL-00017" summary="Сокращенный цикл for in">
       <option name="closed" value="true" />
       <created>1739465637409</created>
@@ -603,7 +595,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740637241918</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="Отправка email">
+      <option name="closed" value="true" />
+      <created>1740663317587</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1740663317588</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
