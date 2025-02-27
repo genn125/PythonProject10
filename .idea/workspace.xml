@@ -49,6 +49,7 @@
     "Python.11.executor": "Run",
     "Python.12.executor": "Run",
     "Python.13.executor": "Run",
+    "Python.14 Работа с CSV файлами (1).executor": "Run",
     "Python.14.executor": "Run",
     "Python.3.executor": "Run",
     "Python.4.executor": "Run",
@@ -75,7 +76,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Python.14">
+  <component name="RunManager" selected="Python.14 Работа с CSV файлами (1)">
     <configuration name="12 Работа с базой данных SQLite" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject10" />
       <option name="ENV_FILES" value="" />
@@ -98,7 +99,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="13" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="13 Отправка email" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject10" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -111,7 +112,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/13.py" />
+      <option name="SCRIPT_NAME" value="D:\Pycharm\PythonProject10\13 Отправка email.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -120,7 +121,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="14" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="14 Работа с CSV файлами (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject10" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -133,7 +134,29 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/14.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/14 Работа с CSV файлами.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="14 Работа с CSV файлами" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonProject10" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:\Pycharm\PythonProject10\14 Работа с CSV файлами.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -164,35 +187,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="www" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonProject10" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/www.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.14" />
-        <item itemvalue="Python.13" />
+        <item itemvalue="Python.14 Работа с CSV файлами (1)" />
+        <item itemvalue="Python.14 Работа с CSV файлами" />
+        <item itemvalue="Python.13 Отправка email" />
         <item itemvalue="Python.12 Работа с базой данных SQLite" />
         <item itemvalue="Python.qqq" />
-        <item itemvalue="Python.www" />
       </list>
     </recent_temporary>
   </component>
@@ -211,30 +212,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1739301860301</updated>
-    </task>
-    <task id="LOCAL-00023" summary="Создание ошибок">
-      <option name="closed" value="true" />
-      <created>1739515324673</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1739515324673</updated>
-    </task>
-    <task id="LOCAL-00024" summary="Классы и экземпляры">
-      <option name="closed" value="true" />
-      <created>1739518009295</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1739518009295</updated>
-    </task>
-    <task id="LOCAL-00025" summary="Классы и экземпляры">
-      <option name="closed" value="true" />
-      <created>1739519361909</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1739519361909</updated>
     </task>
     <task id="LOCAL-00026" summary="Классы и экземпляры">
       <option name="closed" value="true" />
@@ -604,7 +581,31 @@
       <option name="project" value="LOCAL" />
       <updated>1740680058405</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="Работа с CSV файлами">
+      <option name="closed" value="true" />
+      <created>1740680122392</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1740680122392</updated>
+    </task>
+    <task id="LOCAL-00073" summary="Работа с CSV файлами">
+      <option name="closed" value="true" />
+      <created>1740680158720</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1740680158721</updated>
+    </task>
+    <task id="LOCAL-00074" summary="Отправка email">
+      <option name="closed" value="true" />
+      <created>1740680225046</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1740680225046</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -648,9 +649,9 @@
     <MESSAGE value="Работа с файлами" />
     <MESSAGE value="zip архив" />
     <MESSAGE value="Работа с регулярными выражениями (re)" />
-    <MESSAGE value="Отправка email" />
     <MESSAGE value="Работа с базой данных SQLite" />
     <MESSAGE value="Работа с CSV файлами" />
-    <option name="LAST_COMMIT_MESSAGE" value="Работа с CSV файлами" />
+    <MESSAGE value="Отправка email" />
+    <option name="LAST_COMMIT_MESSAGE" value="Отправка email" />
   </component>
 </project>
