@@ -1,5 +1,9 @@
 # 51 Отправка email
 
+# https://github.com/rnwood/smtp4dev/wiki/Installation - создание и запуск локального SMTP сервера в контейнере Docker
+# Docker - программа для создания контейнеров
+
+
 from email.message import EmailMessage         # Конструирование сообщения
 import smtplib                                 #  Модуль для отправки файлов
 from string import Template    # метод форматирования, позволяет создавать шаблоны строк $name.
