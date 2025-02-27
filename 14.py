@@ -1,7 +1,4 @@
 #  Работа с CSV файлами
-
-
-
 import  csv
 
 data = (['id', 'user_name', 'comment'], [25, 'qqq', '11111'], [43, 'aaa', 3333333333], [435, 'zzz', 555])

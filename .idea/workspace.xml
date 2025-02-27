@@ -212,14 +212,6 @@
       <option name="presentableId" value="Default" />
       <updated>1739301860301</updated>
     </task>
-    <task id="LOCAL-00022" summary="Распаковка словаря">
-      <option name="closed" value="true" />
-      <created>1739515288444</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1739515288444</updated>
-    </task>
     <task id="LOCAL-00023" summary="Создание ошибок">
       <option name="closed" value="true" />
       <created>1739515324673</created>
@@ -604,7 +596,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740673242593</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="Работа с CSV файлами">
+      <option name="closed" value="true" />
+      <created>1740680058405</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1740680058405</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="UnknownFeatures">
