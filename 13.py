@@ -2,21 +2,27 @@
 
 from email.message import EmailMessage
 import smtplib
+from string import Template
+from pathlib import  Path
 
 # Конструируем электронное сообщение
 my_email = EmailMessage()                                   # создание экземпляра класса
 
+html_template = Template(Path("templates/index.html").read_text())  # Создали html шаблон по пути ...
+html_content = html_template.substitute({"name": "Bogdan", "date": "завтра"})   # метод, позволяющий заменить переменные в шаблоне html на
+
 my_email ['from'] = '1'                                             # От кого
 my_email ['to'] = 'test@gmail.com'                           #  Кому
-my_email ['sobject'] = 'hello'                                 #   Тема письма
-my_email.set_content("Privet, ya moshennik")          # текст письма
+my_email ['sobject'] = 'Гулять'                                 #   Тема письма
+my_email.set_content(html_content, 'html')          # текст письма из файла index.html в формате html
+                                                            # с заменой переменных в файле index.html
 
 with smtplib.SMTP ('localhost', 2525) as smtp_server:
     smtp_server.ehlo()                                     # Связь с smtp сервером
     # smtp_server.starttls()                                 # Если нужно шифрование
     # smtp_server.login('username', 'password')           # Если нужно авторизоваться
     smtp_server.send_message(my_email)
-    print('ddddd')
+    print('Письмо отправлено')
 
 
 
