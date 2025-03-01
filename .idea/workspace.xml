@@ -213,70 +213,6 @@
       <option name="presentableId" value="Default" />
       <updated>1739301860301</updated>
     </task>
-    <task id="LOCAL-00027" summary="Классы и экземпляры">
-      <option name="closed" value="true" />
-      <created>1739521477851</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1739521477851</updated>
-    </task>
-    <task id="LOCAL-00028" summary="Классы и экземпляры">
-      <option name="closed" value="true" />
-      <created>1739521841845</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1739521841845</updated>
-    </task>
-    <task id="LOCAL-00029" summary="Классы и экземпляры">
-      <option name="closed" value="true" />
-      <created>1739523021029</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1739523021029</updated>
-    </task>
-    <task id="LOCAL-00030" summary="Магические методы в классах">
-      <option name="closed" value="true" />
-      <created>1739523318893</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1739523318893</updated>
-    </task>
-    <task id="LOCAL-00031" summary="Магические методы в классах">
-      <option name="closed" value="true" />
-      <created>1739544067927</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1739544067927</updated>
-    </task>
-    <task id="LOCAL-00032" summary="Классы и экземпляры">
-      <option name="closed" value="true" />
-      <created>1739544134738</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1739544134738</updated>
-    </task>
-    <task id="LOCAL-00033" summary="Классы и экземпляры">
-      <option name="closed" value="true" />
-      <created>1739544153532</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1739544153532</updated>
-    </task>
-    <task id="LOCAL-00034" summary="Магические методы в классах">
-      <option name="closed" value="true" />
-      <created>1739607241583</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1739607241583</updated>
-    </task>
     <task id="LOCAL-00035" summary="Магические методы в классах">
       <option name="closed" value="true" />
       <created>1739608893815</created>
@@ -605,7 +541,71 @@
       <option name="project" value="LOCAL" />
       <updated>1740681797455</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="Работа с CSV файлами">
+      <option name="closed" value="true" />
+      <created>1740845355740</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1740845355740</updated>
+    </task>
+    <task id="LOCAL-00077" summary="Работа с регулярными выражениями">
+      <option name="closed" value="true" />
+      <created>1740845365298</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1740845365299</updated>
+    </task>
+    <task id="LOCAL-00078" summary="Работа с регулярными выражениями">
+      <option name="closed" value="true" />
+      <created>1740845442066</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1740845442066</updated>
+    </task>
+    <task id="LOCAL-00079" summary="Работа с файлами">
+      <option name="closed" value="true" />
+      <created>1740845502848</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1740845502848</updated>
+    </task>
+    <task id="LOCAL-00080" summary="Работа с zip архивами">
+      <option name="closed" value="true" />
+      <created>1740845647440</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1740845647440</updated>
+    </task>
+    <task id="LOCAL-00081" summary="Магические методы в классах">
+      <option name="closed" value="true" />
+      <created>1740845856984</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1740845856984</updated>
+    </task>
+    <task id="LOCAL-00082" summary="Работа с zip архивами">
+      <option name="closed" value="true" />
+      <created>1740846148574</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1740846148574</updated>
+    </task>
+    <task id="LOCAL-00083" summary="Условные инструкции if">
+      <option name="closed" value="true" />
+      <created>1740846283152</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1740846283153</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -636,7 +636,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1" />
-    <MESSAGE value="Условные инструкции if" />
     <MESSAGE value="For_in (с ф-ей filter и через ф-ию lambda)" />
     <MESSAGE value="Цикл while" />
     <MESSAGE value="Сокращенный цикл for in" />
@@ -645,13 +644,16 @@
     <MESSAGE value="Распаковка словаря" />
     <MESSAGE value="Создание ошибок" />
     <MESSAGE value="Классы и экземпляры" />
-    <MESSAGE value="Магические методы в классах" />
-    <MESSAGE value="Работа с файлами" />
     <MESSAGE value="zip архив" />
     <MESSAGE value="Работа с регулярными выражениями (re)" />
     <MESSAGE value="Работа с базой данных SQLite" />
     <MESSAGE value="Отправка email" />
     <MESSAGE value="Работа с CSV файлами" />
-    <option name="LAST_COMMIT_MESSAGE" value="Работа с CSV файлами" />
+    <MESSAGE value="Работа с регулярными выражениями" />
+    <MESSAGE value="Работа с файлами" />
+    <MESSAGE value="Магические методы в классах" />
+    <MESSAGE value="Работа с zip архивами" />
+    <MESSAGE value="Условные инструкции if" />
+    <option name="LAST_COMMIT_MESSAGE" value="Условные инструкции if" />
   </component>
 </project>
