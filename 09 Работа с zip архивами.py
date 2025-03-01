@@ -1,4 +1,4 @@
-# zip архив
+# Работа с zip архивами
 
 from pathlib import Path
 from zipfile import ZipFile
