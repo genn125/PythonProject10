@@ -1,5 +1,4 @@
   #  Работа с регулярными выражениями
-
 import re
 
 def check_password (password):
