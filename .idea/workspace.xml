@@ -214,14 +214,6 @@
       <option name="presentableId" value="Default" />
       <updated>1739301860301</updated>
     </task>
-    <task id="LOCAL-00040" summary="Работа с файлами">
-      <option name="closed" value="true" />
-      <created>1739828705506</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1739828705506</updated>
-    </task>
     <task id="LOCAL-00041" summary="Работа с файлами">
       <option name="closed" value="true" />
       <created>1739889512454</created>
@@ -606,7 +598,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740849696757</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="Декораторы">
+      <option name="closed" value="true" />
+      <created>1740858388622</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1740858388622</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="UnknownFeatures">
