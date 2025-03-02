@@ -42,43 +42,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Python.10.executor": "Run",
-    "Python.11.executor": "Run",
-    "Python.12.executor": "Run",
-    "Python.13.executor": "Run",
-    "Python.14 Работа с CSV файлами (1).executor": "Run",
-    "Python.14.executor": "Run",
-    "Python.15 Декораторы.executor": "Run",
-    "Python.3.executor": "Run",
-    "Python.4.executor": "Run",
-    "Python.5.executor": "Run",
-    "Python.6.executor": "Run",
-    "Python.7.executor": "Run",
-    "Python.8.executor": "Run",
-    "Python.9.executor": "Run",
-    "Python.qqq.executor": "Run",
-    "Python.www.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/Pycharm/PythonProject10/9.py"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Python.10.executor&quot;: &quot;Run&quot;,
+    &quot;Python.11.executor&quot;: &quot;Run&quot;,
+    &quot;Python.12.executor&quot;: &quot;Run&quot;,
+    &quot;Python.13.executor&quot;: &quot;Run&quot;,
+    &quot;Python.14 Работа с CSV файлами (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.14.executor&quot;: &quot;Run&quot;,
+    &quot;Python.15 Декораторы.executor&quot;: &quot;Run&quot;,
+    &quot;Python.15.2 Декоратор Проверка аргументов (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.6.executor&quot;: &quot;Run&quot;,
+    &quot;Python.7.executor&quot;: &quot;Run&quot;,
+    &quot;Python.8.executor&quot;: &quot;Run&quot;,
+    &quot;Python.9.executor&quot;: &quot;Run&quot;,
+    &quot;Python.qqq.executor&quot;: &quot;Run&quot;,
+    &quot;Python.www.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Pycharm/PythonProject10/9.py&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor.code.editing&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "directory"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;
     ],
-    "GitStage.ChangesTree.GroupingKeys": [
-      "directory",
-      "module",
-      "repository"
+    &quot;GitStage.ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;,
+      &quot;module&quot;,
+      &quot;repository&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python.qqq">
-    <configuration name="13 Отправка email" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="15.1 Декор Проверка аутентификации" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject10" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -91,7 +93,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\Pycharm\PythonProject10\13 Отправка email.py" />
+      <option name="SCRIPT_NAME" value="D:\Pycharm\PythonProject10\15.1 Декор Проверка аутентификации.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -100,7 +102,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="14 Работа с CSV файлами (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="15.2 Декоратор Проверка аргументов (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject10" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -113,7 +115,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/14 Работа с CSV файлами.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/15.2 Декоратор Проверка аргументов.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -122,7 +124,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="14 Работа с CSV файлами" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="15.2 Декоратор Проверка аргументов" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject10" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -135,7 +137,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\Pycharm\PythonProject10\14 Работа с CSV файлами.py" />
+      <option name="SCRIPT_NAME" value="D:\Pycharm\PythonProject10\15.2 Декоратор Проверка аргументов.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -144,7 +146,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="15 Декораторы" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject10" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -157,7 +159,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/15 Декораторы.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -191,10 +193,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.qqq" />
-        <item itemvalue="Python.15 Декораторы" />
-        <item itemvalue="Python.14 Работа с CSV файлами (1)" />
-        <item itemvalue="Python.14 Работа с CSV файлами" />
-        <item itemvalue="Python.13 Отправка email" />
+        <item itemvalue="Python.15.2 Декоратор Проверка аргументов (1)" />
+        <item itemvalue="Python.3" />
+        <item itemvalue="Python.15.2 Декоратор Проверка аргументов" />
+        <item itemvalue="Python.15.1 Декор Проверка аутентификации" />
       </list>
     </recent_temporary>
   </component>
@@ -213,38 +215,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1739301860301</updated>
-    </task>
-    <task id="LOCAL-00042" summary="Работа с файлами">
-      <option name="closed" value="true" />
-      <created>1739891435834</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1739891435834</updated>
-    </task>
-    <task id="LOCAL-00043" summary="Работа с файлами">
-      <option name="closed" value="true" />
-      <created>1739891952245</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1739891952245</updated>
-    </task>
-    <task id="LOCAL-00044" summary="zip архив">
-      <option name="closed" value="true" />
-      <created>1739894816005</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1739894816005</updated>
-    </task>
-    <task id="LOCAL-00045" summary="zip архив">
-      <option name="closed" value="true" />
-      <created>1739960641085</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1739960641085</updated>
     </task>
     <task id="LOCAL-00046" summary="Работа с регулярными выражениями (re)">
       <option name="closed" value="true" />
@@ -606,7 +576,39 @@
       <option name="project" value="LOCAL" />
       <updated>1740860060210</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="Декораторы">
+      <option name="closed" value="true" />
+      <created>1740900782098</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1740900782098</updated>
+    </task>
+    <task id="LOCAL-00092" summary="Декоратор: Проверка аутентификации пользователя">
+      <option name="closed" value="true" />
+      <created>1740908100242</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1740908100242</updated>
+    </task>
+    <task id="LOCAL-00093" summary="Декоратор: Проверка аргументов">
+      <option name="closed" value="true" />
+      <created>1740908436114</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1740908436114</updated>
+    </task>
+    <task id="LOCAL-00094" summary="Декоратор: Проверка аргументов">
+      <option name="closed" value="true" />
+      <created>1740917211309</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1740917211309</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -656,6 +658,8 @@
     <MESSAGE value="Цикл while" />
     <MESSAGE value="Классы и экземпляры" />
     <MESSAGE value="Декораторы" />
-    <option name="LAST_COMMIT_MESSAGE" value="Декораторы" />
+    <MESSAGE value="Декоратор: Проверка аутентификации пользователя" />
+    <MESSAGE value="Декоратор: Проверка аргументов" />
+    <option name="LAST_COMMIT_MESSAGE" value="Декоратор: Проверка аргументов" />
   </component>
 </project>
