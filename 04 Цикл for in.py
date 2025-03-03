@@ -1,4 +1,3 @@
-
 # Цикл for in
 
 def dict_to_list(my_dict):
