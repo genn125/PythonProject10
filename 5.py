@@ -1,4 +1,3 @@
-
 #  Создание ошибок
 
 def image_info (kwargs):
